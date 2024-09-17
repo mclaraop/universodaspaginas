@@ -8,7 +8,7 @@
     --cor2: #E2BCB7;
     --cor3: #CA8A8B;
     --cor4: #5B6D5B;
-    --cor5: #5b6d5b6e;
+    --cor5: #5b6d5b2d;
     --fonte: Roboto;
 }
 
@@ -93,8 +93,8 @@ nav{
     background-color: var(--cor5);
 }
 
-#melhoresProdutos h4{
-    color: #F6E6E4;
+#melhoresProdutos h2{
+    color: #5B6D5B;
     margin-bottom: 20px;
 }
 
