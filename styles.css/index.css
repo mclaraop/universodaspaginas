@@ -8,6 +8,7 @@
     --cor2: #E2BCB7;
     --cor3: #CA8A8B;
     --cor4: #5B6D5B;
+    --cor5: #5b6d5b6e;
     --fonte: Roboto;
 }
 
@@ -33,7 +34,8 @@ nav{
 }
 
 
-#menuEsquerdo h2{
+#menuEsquerdo h1{
+    font-size: 30px;
     padding: 20px;
 }
 
@@ -85,10 +87,10 @@ nav{
 }
 
 #melhoresProdutos{
-    width: 90%;
+    width: 70%;
     padding: 20px;
     text-align: center;
-    background-color: var(--cor4);
+    background-color: var(--cor5);
 }
 
 #melhoresProdutos h4{
@@ -96,10 +98,15 @@ nav{
     margin-bottom: 20px;
 }
 
-#melhoresProdutos img{
+#melhoresProdutos img {
     max-width: 100%;
     height: auto;
     margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+#melhoresProdutos img:hover {
+    transform: scale(1.2);
 }
 
 .catalogo-container{
@@ -114,12 +121,24 @@ nav{
 #categorias{
     width: 20%;
     padding-right: 20px;
-    border-right: 1px solid #ccc;
+    border-right: 2px solid #5B6D5B;
 }
+
+#categorias input[type="checkbox"]:checked + label {
+    color: #CA8A8B;
+    font-weight: bold;
+}
+
 
 #categorias ul{
     list-style: none;
 }
+
+#categorias ul li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 
 .produtos-container{
     display: flex;
@@ -128,7 +147,8 @@ nav{
 }
 
 .produto-item{
-    width: 24%;
+    width: 18%;
+    padding: 15px;
     margin-bottom: 10px;
 }
 
