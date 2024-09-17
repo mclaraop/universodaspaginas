@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo</title>
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,15 +14,69 @@
 </head>
 <body>
     <header>
-        <div id="header-catalogo">
+        <nav id="menuEsquerdo">
             <img src="../images/logo.png" width="50px" alt="Logo">
             <h1>Universo das Páginas</h1>
-        </div>
+    </nav>
+
+    <nav id="menuDireito">
+        <a class="botao" href="../pages/login.html">Fazer cadastro / Login</a>
+    </nav>
     </header>
+
+
     <main>
-        TESTE
-    </main>
+        <section class="produto-destaque">
+            <div class="imagem-produto">
+                <img src="../images/eleanor-park.jpg" alt="Imagem do Produto">
+            </div>
+            <div class="info-produto">
+                <h1>Eleanor & Park</h1>
+                <p class="rainbow rowell">Subtítulo</p>
+                <div class="avaliacao">
+                    ★ ★ ★ ★ ★
+                </div>
+                <p class="preco">R$39,90</p>
+                <button class="comprar">Comprar</button>
+            </div>
+        </section>
     
+        <section class="recomendados">
+            <h2>RECOMENDADOS PARA VOCÊ</h2>
+            <div class="produtos-recomendados">
+                <div class="produto">
+                    <img src="../images/recomendado-1.jpg" alt="1">
+                    <h4>Um caso perdido</h4>
+                    <p>R$39,90</p>
+                </div>
+                <div class="produto">
+                    <img src="../images/recomendado-2.jpg" alt="2">
+                    <h4>Sem esperança</h4>
+                    <p>R$49,90</p>
+                </div>
+                <div class="produto">
+                    <img src="../images/recomendado-3.jpg" alt="3">
+                    <h4>1984</h4>
+                    <p>R$59,90</p>
+                </div>
+                <div class="produto">
+                    <img src="../images/recomendado-4.jpg" alt="4">
+                    <h4>O colecionador</h4>
+                    <p>R$49,90</p>
+                </div>
+                <div class="produto">
+                    <img src="../images/recomendado-5.jpg" alt="5">
+                    <h4>Teto para dois</h4>
+                    <p>R$29,90</p>
+                </div>
+                <div class="produto">
+                    <img src="../images/recomendado-6.jpg" alt="6">
+                    <h4>Lady Killers</h4>
+                    <p>R$56,90</p>
+                </div>
+            </div>
+        </section>
+    </main>  
 
     <footer>
         <div class="footer-contatos">
@@ -32,7 +87,7 @@
             </div>
             <div class="footer-direita">
                 <h4>Sobre a Conta</h4>
-                <a class="botao-footer" href="pages/login.html">Faça o login!</a>
+                <a class="botao-footer" href="../pages/login.html">Faça o login!</a>
             </div>
         </div>
         <div class="footer-inferior">
