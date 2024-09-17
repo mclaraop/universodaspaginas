@@ -96,32 +96,120 @@ nav{
     margin-bottom: 20px;
 }
 
-#melhoresProdutos img {
+#melhoresProdutos img{
     max-width: 100%;
     height: auto;
     margin: 10px;
 }
 
-.catalogo-container {
+.catalogo-container{
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     gap: 30px;
     padding: 20px;
 }
 
-#categorias {
+#categorias{
     width: 20%;
     padding-right: 20px;
     border-right: 1px solid #ccc;
 }
 
-#categorias ul {
+#categorias ul{
     list-style: none;
 }
 
+.produtos-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produto-item{
+    width: 24%;
+    margin-bottom: 10px;
+}
+
+.produto-item img{
+    width: 100%;
+    height: auto;
+}
+
+#contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#contatos h3{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.agrupamento{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black 1px solid;
+}
 
 footer{
     width: 100%;
-    height: 70px;
     background-color: var(--cor1);
+    color: #5B6D5B;
+    padding: 20px 0;
+    bottom: 0;
+}
+
+.footer-contatos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.footer-esquerda, .footer-direita{
+    display: flex;
+    flex-direction: column;
+}
+
+.botao-footer{
+    text-decoration: none;
+    color: #CA8A8B;
+}
+
+.botao-footer:hover{
+    text-decoration: underline;
+}
+
+
+.footer-inferior{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-inferior p{
+    margin: 0;
+    font-size: 14px;
 }
